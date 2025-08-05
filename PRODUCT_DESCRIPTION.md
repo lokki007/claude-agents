@@ -1,6 +1,6 @@
 # Claude Code Sub-Agent Collection
 
-A comprehensive collection of 120+ specialized sub-agents for Claude Code that supercharge your development workflow with expert-level assistance across every domain of software engineering.
+A comprehensive collection of 123 specialized sub-agents for Claude Code that supercharge your development workflow with expert-level assistance across every domain of software engineering.
 
 ## What's Included
 
@@ -224,7 +224,7 @@ My API queries are slow
 
 ## What Makes This Special
 
-- **120+ Expert Agents**: Specialized knowledge in every domain
+- **123 Expert Agents**: Specialized knowledge in every domain
 - **Production-Ready**: Used by developers building real applications
 - **Framework Agnostic**: Works with any tech stack or language
 - **Constantly Updated**: Agents evolve with best practices

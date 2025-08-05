@@ -2,7 +2,7 @@
 
 ## Supercharge Your Development Workflow
 
-Transform Claude Code into a team of 120+ specialized AI engineers, each expert in their domain. From code review to deployment, from bug fixing to strategic planning - get expert-level assistance for every aspect of software development.
+Transform Claude Code into a team of 123 specialized AI engineers, each expert in their domain. From code review to deployment, from bug fixing to strategic planning - get expert-level assistance for every aspect of software development.
 
 ## What Are Sub-Agents?
 
