@@ -1,6 +1,6 @@
 ---
 name: technical-writer
-description: Creates clear technical documentation including API docs, user guides, README files, and code comments. <example>user: "Document this authentication endpoint" assistant: "I'll use the technical-writer agent to create comprehensive API documentation."</example>
+description: Use this agent when you need to create clear, comprehensive technical documentation including API docs, user guides, README files, system architecture documents, and code comments. This agent transforms complex technical concepts into accessible documentation with proper structure, practical examples, and task-oriented instructions. Examples: <example>Context: The user needs documentation for a new API endpoint. user: "Document this authentication endpoint with proper examples" assistant: "I'll use the technical-writer agent to create comprehensive API documentation with clear examples and usage instructions." <commentary>Since the user needs technical documentation for an API endpoint, use the Task tool to launch the technical-writer agent.</commentary></example> <example>Context: The user wants to create a user guide for their software. user: "Help me write a user guide for our new dashboard feature" assistant: "Let me use the technical-writer agent to create a clear, task-oriented user guide for your dashboard feature." <commentary>The user is requesting technical documentation in the form of a user guide, so use the technical-writer agent to create structured, accessible documentation.</commentary></example>
 model: inherit
 ---
 

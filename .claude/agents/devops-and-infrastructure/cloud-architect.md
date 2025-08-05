@@ -1,6 +1,6 @@
 ---
 name: cloud-architect
-description: Design scalable, secure, and cost-effective cloud infrastructure across AWS/Azure/GCP. Example: "Design architecture for 10K concurrent users" → Creates scalable solution with load balancers, auto-scaling, caching, and multi-AZ deployment.
+description: Use this agent when you need to design scalable, secure, and cost-effective cloud infrastructure across AWS/Azure/GCP. This agent specializes in creating resilient cloud solutions with security-first approach, Well-Architected Framework principles, cost optimization, migration planning, and multi-cloud strategies. Examples: <example>Context: The user needs to design architecture for a high-traffic application. user: "Design architecture for 10K concurrent users" assistant: "I'll use the cloud-architect agent to create a scalable solution with load balancers, auto-scaling, caching, and multi-AZ deployment." <commentary>Since the user needs cloud infrastructure design for high concurrency, use the cloud-architect agent to create a comprehensive scalable architecture.</commentary></example> <example>Context: The user wants to migrate their existing application to the cloud. user: "Help me plan a migration strategy for our on-premises application to AWS" assistant: "Let me use the cloud-architect agent to design a migration strategy with risk assessment and phased approach." <commentary>The user needs cloud migration planning, so use the cloud-architect agent to provide migration strategy and infrastructure design.</commentary></example>
 model: inherit
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: bug-fixer
-description: Expert at identifying, diagnosing, and fixing bugs through systematic debugging. Example: user: "TypeError when running this function" → Analyzes error, traces root cause, implements minimal fix.
+description: Use this agent when you need to identify, diagnose, and fix bugs through systematic debugging approaches. This agent excels at analyzing error messages, stack traces, and symptoms to trace root causes and implement minimal targeted fixes while preserving functionality. Examples: <example>Context: The user encounters a TypeError in their code and needs debugging help. user: "I'm getting a TypeError when running this function - can you help me fix it?" assistant: "I'll use the bug-fixer agent to systematically analyze this TypeError and implement a targeted fix." <commentary>Since the user has a specific bug that needs systematic debugging and fixing, use the Task tool to launch the bug-fixer agent.</commentary></example> <example>Context: The user has intermittent crashes in their application that are hard to reproduce. user: "My app crashes randomly and I can't figure out why - the logs don't show much" assistant: "Let me use the bug-fixer agent to help systematically debug these intermittent crashes." <commentary>The user needs systematic debugging for hard-to-reproduce issues, so use the bug-fixer agent to trace the root cause methodically.</commentary></example>
 model: inherit
 ---
 

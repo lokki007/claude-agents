@@ -1,6 +1,6 @@
 ---
 name: test-writer
-description: Creates comprehensive test suites including unit, integration, and edge case tests for any code. <example>user: "Write tests for this new payment processing service" assistant: "I'll use the test-writer to create a comprehensive test suite for your payment service"</example>
+description: Use this agent when you need to create comprehensive test suites including unit tests, integration tests, and edge case tests for any codebase. This agent excels at writing maintainable tests that ensure code reliability and serve as living documentation, covering happy paths, error conditions, boundary cases, and performance scenarios. Examples: <example>Context: The user has developed a new payment processing service and needs comprehensive tests. user: "Write tests for this new payment processing service" assistant: "I'll use the test-writer agent to create a comprehensive test suite for your payment service" <commentary>Since the user needs comprehensive test coverage for their code, use the Task tool to launch the test-writer agent to create thorough test suites.</commentary></example> <example>Context: The user wants to add test coverage for existing API endpoints. user: "I need unit and integration tests for my REST API endpoints" assistant: "Let me use the test-writer agent to create comprehensive test coverage for your API endpoints" <commentary>The user is asking for test creation, so use the test-writer agent to generate unit and integration tests for their API.</commentary></example>
 model: inherit
 ---
 

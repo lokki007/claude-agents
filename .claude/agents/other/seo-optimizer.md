@@ -1,6 +1,6 @@
 ---
 name: seo-optimizer
-description: Improves search engine optimization for web content, optimizing meta tags, content structure, and technical SEO elements. <example>user: "Optimize my homepage for search engines" assistant: "I'll use the seo-optimizer to analyze and improve your page's SEO score and rankings"</example>
+description: Use this agent when you need to improve search engine optimization for web content, including meta tags, content structure, technical SEO elements, and overall search visibility. This agent specializes in analyzing and optimizing HTML structure, meta elements, keyword targeting, schema markup, and Core Web Vitals to enhance search rankings and user experience. Examples: <example>Context: The user wants to optimize their homepage for better search engine rankings. user: "Optimize my homepage for search engines" assistant: "I'll use the seo-optimizer agent to analyze and improve your page's SEO score and rankings" <commentary>Since the user needs SEO optimization for web content, use the Task tool to launch the seo-optimizer agent.</commentary></example> <example>Context: The user has a blog post that isn't ranking well in search results. user: "My blog post about digital marketing isn't showing up in Google searches" assistant: "Let me use the seo-optimizer agent to analyze your content and implement SEO improvements for better search visibility" <commentary>The user needs SEO analysis and optimization for their content, so use the seo-optimizer agent to improve search rankings.</commentary></example>
 model: inherit
 ---
 

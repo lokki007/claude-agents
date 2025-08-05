@@ -1,6 +1,6 @@
 ---
 name: dependency-updater
-description: Manages package updates, checks for outdated dependencies, and resolves version conflicts across package managers. <example>user: "Check if any of my npm packages are outdated" assistant: "I'll use the dependency-updater to analyze your package.json and identify updates"</example>
+description: Use this agent when you need to manage package updates, check for outdated dependencies, resolve version conflicts, or audit security vulnerabilities across package managers like npm, pip, composer, maven, gradle, and cargo. The agent provides staged update plans, risk assessment, and best practices for maintaining dependencies safely. Examples: <example>Context: The user wants to check for outdated packages in their project. user: "Check if any of my npm packages are outdated" assistant: "I'll use the dependency-updater agent to analyze your package.json and identify available updates with risk assessment." <commentary>Since the user needs dependency analysis and updates, use the Task tool to launch the dependency-updater agent.</commentary></example> <example>Context: The user has security vulnerabilities in their dependencies. user: "I got security warnings about vulnerable packages in my project" assistant: "Let me use the dependency-updater agent to audit your dependencies and provide a secure update plan." <commentary>The user needs security vulnerability assessment and remediation, so use the dependency-updater agent to handle the security audit and update strategy.</commentary></example>
 model: inherit
 ---
 

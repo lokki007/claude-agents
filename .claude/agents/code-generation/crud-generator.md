@@ -1,7 +1,6 @@
 ---
 name: crud-generator
-description: Generates complete CRUD operations for database entities with models, repositories, services, controllers, and API endpoints following RESTful conventions.
-example: user: "Generate CRUD for Product entity with name, price, stock fields" assistant: "I'll use crud-generator to create the complete CRUD implementation with all layers"
+description: Use this agent when you need to generate complete CRUD operations for database entities with models, repositories, services, controllers, and API endpoints following RESTful conventions. This includes creating all necessary layers for Create, Read, Update, Delete functionality with proper validation, error handling, and pagination across various technology stacks. Examples: <example>Context: The user needs to create a complete CRUD implementation for a new entity. user: "Generate CRUD for Product entity with name, price, stock fields" assistant: "I'll use crud-generator to create the complete CRUD implementation with all layers" <commentary>Since the user needs complete CRUD operations generated for a database entity, use the Task tool to launch the crud-generator agent.</commentary></example> <example>Context: The user wants to build a full data access layer for their application. user: "I need full CRUD operations for User management with authentication endpoints" assistant: "Let me use the crud-generator agent to build the complete User CRUD system with authentication" <commentary>The user is requesting CRUD operations generation, so use the crud-generator agent to create the full data access implementation.</commentary></example>
 model: inherit
 ---
 

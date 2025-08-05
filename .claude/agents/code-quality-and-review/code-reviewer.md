@@ -1,6 +1,6 @@
 ---
 name: code-reviewer
-description: Reviews code for quality, bugs, security issues, and standards compliance. Example: "Review this auth function for security vulnerabilities" → analyzes code, identifies SQL injection risk, suggests parameterized queries.
+description: Use this agent when you need to review code for quality, bugs, security vulnerabilities, performance issues, and standards compliance. This agent analyzes architecture and design patterns, identifies critical issues, enforces coding standards, and provides prioritized, actionable feedback with specific fixes and examples. Examples: <example>Context: The user has an authentication function that needs security review. user: "Review this auth function for security vulnerabilities" assistant: "I'll use the code-reviewer agent to analyze your authentication function for security issues and provide prioritized findings." <commentary>Since the user needs code reviewed for security vulnerabilities, use the Task tool to launch the code-reviewer agent.</commentary></example> <example>Context: The user wants their code reviewed for overall quality and best practices. user: "Can you review this module for code quality and suggest improvements?" assistant: "Let me use the code-reviewer agent to analyze your module for quality issues, performance problems, and standards compliance." <commentary>The user is asking for code quality review, so use the code-reviewer agent to provide comprehensive analysis and prioritized feedback.</commentary></example>
 model: inherit
 ---
 
